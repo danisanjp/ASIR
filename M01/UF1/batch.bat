@@ -36,5 +36,15 @@ IF EXIST "archivo2.txt" (
   ECHO move archivo2.txt .\carpeta1\
 )
 
+@echo off
+::Script que te pregunta la edad y te dice si eres mayor de edad
+echo Cual es tu edad?
+SET /P m=
+IF %m% GEQ 18 (
+echo ERES MAYOR DE EDAD
+) ELSE (
+echo NO ERES MAYOR DE EDAD
+)
+@pause
 
 
