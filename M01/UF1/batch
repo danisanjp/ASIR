@@ -1,1 +1,6 @@
-
+@echo off
+::Script Que Dice Hola Mundo
+cls
+echo Hola Mundo
+pause
+exit
